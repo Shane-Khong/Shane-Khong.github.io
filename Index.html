@@ -10,26 +10,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     
-    
-    
     <title>Shane Khong</title>
     
-    <!--link to Bootstrap?-->
+    <!--insert link to Bootstrap here if you want-->
     <!--link to CSS files-->
-    <link href="./main.css" type="text/css" rel="stylesheet">
-    
-    <!--All the CSS stuff (I don't know how to create a CSS directory!)-->
-    <style>
-      h1, h2, h3, p {
-        font-family: Tahoma, Geneva, sans-serif;
-        }
-      
-      h2 {
-         color: green;
-        }
-    </style>
-    
+    <link href="main.css" type="text/css" rel="stylesheet">    
     <!--link to javascript files-->
+    <script href="main.js"></script>
     
   </head>
   
@@ -40,46 +27,45 @@
   <!--body-->
   <body>
   
-  <h1>Shane Khong</h1>
-    <img src="https://media.licdn.com/dms/image/C4E03AQH5ol_dzLTVQw/profile-displayphoto-shrink_200_200/0?e=1536796800&amp;v=beta&amp;t=UYi6gBFfYMPK6LKS5TdniCpTpQ-K56mfQA-o3m1OGMA" class="profile-photo-edit__preview" alt="My Head" height="128" width="128"> <!--my professional photo-->
+    <header class="banner">
+      <h1>Shane Khong</h1>
+      <img src="https://media.licdn.com/dms/image/C4E03AQH5ol_dzLTVQw/profile-displayphoto-shrink_200_200/0?e=1536796800&amp;v=beta&amp;t=UYi6gBFfYMPK6LKS5TdniCpTpQ-K56mfQA-o3m1OGMA" class="profile-photo-edit__preview" alt="My Head" height="128" width="128"> <!--my professional photo-->
 
-    <div>
-      <a href="https://www.linkedin.com/in/shanekhong/" target="_blank"><img src="https://png.icons8.com/color/50/000000/linkedin.png" alt="my Linkedin page"/></a> <!--linkedin icon with hyperlink to my linkedin-->
+
+        <!--hyperlink to my linkedin (text version)-->
+        <!--<div><a href="https://www.linkedin.com/in/shanekhong/" target="_blank">My Linkedin</a> </div>-->  
+    </header>
+         
+    <div class="about">
+       <p class="about-me">Just a student studying Commerce/Law that enjoys learning new things 
+       <br><br>At the moment I'm learning how to develop my own webpage</p>
     </div>
-    
-    <div>
-      <a href="https://www.linkedin.com/in/shanekhong/" target="_blank">My Professional Profile</a> <!--hyperlink to my linkedin (text version)-->
-    </div>  
      
     <div>
-      <h2>About me</h2>
-      <p>Just a student studying Commerce/Law that enjoys learning new things</p> 
-      <p>At the moment I'm learning how to develop my own webpage and doing abit of experimentation</p>
+       <h2 class = "interests">Stuff I like doing</h2>
     </div>
-    
-    <div>
-      <h2>Things I'm interested in</h2>
-    </div>
-    
-    <div>
-        <ul>
-          <li><p>Staying fit (Gym, Futsal)</p></li>
-          <li><p>Investing</p></li>
-          <li><p>Learning Code</p></li>
-        </ul>
-    </div>
-    
-    
+      
+    <main>    
+      <div class = "hobby"><h2>Saying Fit</h2></div>
+        <p class="staying-fit">Gym: The one hobby that's stayed with me over the years. I love it because it's the most efficient form of exercise. <br><br> Indoor Soccer: It's the team sport I've been searching for. I'm terrible at it at the moment, but slowly wearing in the futsal shoes and I hope to become a good player in a league!</p>
+        <!--MAKE <p> A DROP DOWN MENU-->
+      <div class = "hobby"><h2>Investing</h2></div>
+        <p class="investing">After learning Taxation law at university, I created a monthly budget to determine how much I would put away based on my graduate salary. It did not look good. I read Robert Kiyosaki's book Rich Dad Poor Dad and I am confident it has changed my outlook on life. The biggest thing it taught me was that a salary is not enough and never will be. I need to find another income stream, preferrably passive income.</p>
+      <div class = "hobby"><h2>Learning Code</h2></div>
+        <p class="learning-code">I've missed the boat on the property market. So what now? I reckon I have two options: (1) the stock market and (2) the internet. As the market is currently WAY overpriced, I've decided to wait until the crash (and save money). <br><br> In the meantime, I've taken coding classes! so far I've learned the basics of HTML and CSS which I'm using to create this website! I am also currently learning JavaScript with plans on learning Python. This is actually really fun because you get to solve problems whilst creating your own stuff!</p>
+        <div class = "hobby"><h2>Learning Chinese</h2></div>
+        <p class="learning-chinese">FINALLY I've found something to motivate me to learn. DuoLingo finally put in a Chinese Course. Time to get better acquainted with the language of my ancestors!</p>
+    </main>
+      
   </body>
 
 
-<!--this adds javascript!-->
-  <script>
-  </script>
-
-<!--Stuff that goes in the footer-->
-<div>
+<!--Footer-->
+<div class="footer">
   <a href="https://icons8.com">Icon pack by Icons8</a> <!--allows me to use the linkedin icon for free apparently-->
+    <span>
+        <a href="https://www.linkedin.com/in/shanekhong/" target="_blank"><img src="https://png.icons8.com/color/50/000000/linkedin.png" alt="my Linkedin page"/></a> <!--linkedin icon with hyperlink to my linkedin-->
+    </span>
 </div>
 
 </html>
